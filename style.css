@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+     background-image: url(https://cdn.mos.cms.futurecdn.net/s8yRTcF5QkCeqtWLo4HDQf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+
+
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+
+    
+}
+.inicio-imagem {
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    
+}
+.inicio-menu {
+    display: flex;
+    gap: 32px;
+    background-size: cover;
+    background-position: center;
+}
+.inicio-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Daqui pra cima é só o inicio, logo do site */
+
+.conteudo {
+    margin-bottom:  48px; 
+    border-top: 0.4px solid #FFF2E7;
+    background-size: cover;
+    background-position: center;
+
+}
+.conteudo-principal {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 150px;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    background-size: cover;
+    background-position: center;
+    min-width: 120px;
+    max-width: 1000px;
+    min-height: 120px;
+    max-height: 1000px;
+}
+.conteudo-principal-escrito-titulo {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 54px;
+    color: white;
+    min-width: 150px;
+}
+.conteudo-principal-escrito-subtitulo {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    min-width: 150px;
+}
+.conteudo-principal-escrito-botao:hover {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(236, 214, 196, 0.53);
+  
+} 
+
+.conteudo-principal-escrito-botao {
+    background-size: cover;
+    background-position: center;
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+    border-radius: 100px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.conteudo-principal-imagem {
+    min-width: 150px;
+    box-shadow: 22px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    min-width: 150px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 14px;
+}
+.conteudo-secundario-paragrafo {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    min-width: 150px;
+}
+.rodape {
+    padding: 18px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    color: black;
+}
+footer{
+    
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+}
+strong{
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    box-shadow:h 4px 0px 5px #ffa420;
+    
+    
+}
+strong > a{
+    color: #ffa420;
+    text-decoration: underline;
+}
+.meu-nome{
+    padding: 5px;
+}
